@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: silver;
+}
+
+#slider {
+    height: 100vh;
+    background: url(img/01.\ standart\ cleaning.jpg) center/cover;
+}
+
+nav {
+    text-align: center;
+    background-color: rgba(97, 102, 184, 0.5);
+    position: fixed;
+}
+
+
+
+nav img {
+    width: 50px;
+}
+
+#menu a {
+    font: 500 2rem 'Medium Gilroy';
+    color: #fff;
+    display: inline-block;
+    /* padding: 2px; */
+}
+
+#btn-nav {
+    margin-left: 20px;
+}
+
+#btn-nav button {
+    border: 0;
+    color: white;
+    padding: 2px 10px;
+}
+
+#login {
+    background-color: rgb(255, 0, 0);
+    border-radius: 30% 0 0 30%;
+}
+
+#signup {
+    background-color: rgb(0, 0, 255);
+    border-radius: 0 30% 30% 0;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.left {
+    left: 3%;
+     
+}
+
+.right {
+    right: 3%;
+}
+
+i{
+    font-size: 20px
+}
+
+@media only screen and (min-width: 768px) {
+
+    .container {
+
+        max-width: 1200px;
+        margin: auto;
+        /* background-color: aqua; */
+    }
+
+    #flex-div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav {
+        /* padding: 15px 15px; */
+        padding: 0 15px;
+        width: 100%;
+    }
+
+    #nav-right-part {
+        display: flex;
+        align-items: center;
+
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu li {
+        padding: 0 20px;
+        letter-spacing: 3px;
+    }
+
+    #menu li:hover {
+        background-color: orange;
+    }
+    .circle{
+        width: 80px;
+        height: 80px;
+    }
+
+    i{
+        font-size: 50px
+    }
+    
+
+   
+
+
+
+
+
+}
